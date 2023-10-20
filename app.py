@@ -2,7 +2,7 @@ import os
 os.chdir(f"/home/xlab-app-center")
 os.system(f"apt update")
 os.system(f"pip install -q TTS==0.17.8")
-os.system(f"git clone -b v1.1 https://github.com/camenduru/SadTalker")
+os.system(f"git clone -b v2.0 https://github.com/camenduru/SadTalker")
 os.system(f"pip install -q gradio safetensors kornia facexlib yacs gfpgan")
 os.chdir(f"/home/xlab-app-center/SadTalker")
 
