@@ -15,5 +15,6 @@ os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggin
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/SadTalker/resolve/main/new/gfpgan/weights/alignment_WFLW_4HG.pth -d /home/xlab-app-center/SadTalker/gfpgan/weights -o alignment_WFLW_4HG.pth")
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/SadTalker/resolve/main/new/gfpgan/weights/detection_Resnet50_Final.pth -d /home/xlab-app-center/SadTalker/gfpgan/weights -o detection_Resnet50_Final.pth")
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/SadTalker/resolve/main/new/gfpgan/weights/parsing_parsenet.pth -d /home/xlab-app-center/SadTalker/gfpgan/weights -o parsing_parsenet.pth")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/SadTalker/resolve/main/new/checkpoints/epoch_00190_iteration_000400000_checkpoint.pt -d /content/SadTalker/checkpoints -o epoch_00190_iteration_000400000_checkpoint.pt")
 
 os.system(f"python app_sadtalker.py --theme dark")
